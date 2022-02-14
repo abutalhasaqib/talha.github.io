@@ -1,0 +1,281 @@
+body{
+    padding: 5%;
+    margin: 0%;
+    box-sizing: border-box;
+    background-color: rgb(211 211 211) !important
+}
+
+/* Section 1 */
+.cus-main{
+    max-width: 60%;
+    margin: auto;
+    height:auto;
+    background-color: rgb(8, 153, 221);
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;   
+    color: #ffff;
+    text-align: center;
+}
+
+.cus-main h3{   
+    color: rgb(0, 89, 161);
+    text-align: center;
+    font-size:33px;
+    margin:-1% 0% 2% 0%;
+}
+
+.cus-main h1{
+    margin-top: 28px;
+    font-size:50px;
+    text-align: center;
+    line-height: 75px;
+
+}
+.cus-main p{
+    max-width: 80%;
+    font-size:22px;
+    line-height: 32px;
+    margin: 1% 10% 5% 10%;
+}
+
+/* .cus-btn{
+    margin: 2% 36%;
+    
+} */
+
+/* sectiom 2 */
+.cus-sec2{
+    max-width: 60%;
+    margin: auto;
+    height: auto;
+    background-color: white
+    
+
+}
+
+.cus-columns h3{
+    font-size: 35px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;  
+    color:#616060;
+    margin:12% 0% 1% 10%;
+}
+
+.cus-columns p{
+    max-width:80%;
+    margin:0% 0% 0% 10%;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;  
+    color:black;
+    font-size: 22px;
+
+}
+
+/* button */
+
+.cus-btn{
+    max-width: 80%;
+    height: 100px;
+    margin: 5% 0% 5% 30%;
+    background-color: rgb(8, 153, 221);
+    color: white;
+    font-size: 30px;
+    outline: auto;
+    font-family: 'Roboto', sans-serif;
+    width: 320px;
+}
+
+/* section3 */
+
+.cus-sec3{
+    max-width: 60%;
+    margin: auto;
+    background-color: rgb(244, 244, 244);
+    height: auto;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif; 
+}
+
+.cus-msg h2{
+    font-size: 33px;
+    margin: -3% 0% 1% 12%;
+    color:#616060
+}
+
+.cus-msg{
+    margin: 75px 0px 0px -83px;
+
+}
+.cus-para{
+    max-width: 80%;
+    font-size: 25px;
+    color: darkgray;
+    margin: 0% 0% 5% 4%;
+    height: auto;
+}
+
+/* section4 */
+
+.cus-sec4{
+    max-width: 60%;
+    height: auto;
+    margin: auto;
+    background-color: white
+}
+
+.cus-sec4columns h3{
+    font-size: 35px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;  
+    color:#616060;
+    margin:12% 0% 1% 10%;
+}
+
+.cus-sec4columns p{
+    max-width:80%;
+    margin:0% 0% 12% 10%;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;  
+    color:black;
+    font-size: 22px;
+
+}
+
+
+
+/* section5 */
+
+.cus-sec5{
+    background-color:rgb(8, 153, 221);
+    max-width: 60%;
+    margin: auto;
+    height: auto;
+}
+.square {
+    margin: -12% 0% -4% 27%;
+    height: 310px;
+    width: 310px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    position: relative;
+    top: 155px;
+}
+
+
+.hallow-square{
+    border: 15px solid rgb(8, 153, 221);
+    border-radius: 5%;
+    width: 280px;
+    height: 280px;
+    z-index: 50;
+    margin: auto;
+
+}
+
+.cus-squcir{
+    overflow: hidden;
+    position: relative;
+}
+
+@media only screen  and (max-width:768px) {
+    body{
+       padding: 0px;
+       margin: 0px;
+       box-sizing: border-box;
+    }
+    
+    .cus-btn{
+        height: 75px;
+        margin: 6% 22%;
+        background-color: rgb(8, 153, 221);
+        color: white;
+        font-size: 22px;
+        outline: auto;
+        width: 240px;
+    }
+    
+    .cus-msg{
+        margin: 50px 21px;
+        color: #616060;
+    }
+
+    .cus-para{
+        margin: -50px 21px;
+        font-size: 18px;
+        color: black;
+    }
+
+    .cus-main h1 {
+        margin: 6% 0% 0% 0%;
+        font-size: 36px;
+        text-align: center;
+        line-height: 45px;
+    }
+
+    .cus-main p {
+        font-size: 18px;
+        margin-bottom: 5%;
+    }
+
+    .cus-main h2 {
+        color: rgb(0, 89, 161);
+        text-align: center;
+        margin: 2%;
+        font-size: 24px;
+    }
+
+
+    .cus-columns h3{
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Roboto', sans-serif;  
+        color:#616060;
+        margin-top:10%;
+        margin-left: 15px;
+        font-size: 20px;
+    }
+    
+    .cus-columns p{
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Roboto', sans-serif;  
+        color:black;
+        margin: -5px 15px;
+
+    
+    }
+
+    .cus-columns{
+        margin: 0% 0%
+    }
+
+    .cus-adjustsec3{
+        margin: 15% 0%
+    }
+
+    .square {
+        margin: 8% 35%;
+        height: 120px;
+        width: 120px;
+        background-color: white;
+        display: flex;
+        justify-content: center; 
+        border-radius:20px  
+     }
+
+    .cus-sec4{
+        margin-bottom: 5%;
+    }
+
+    .hallow-square{
+        border: 8px solid rgb(8, 153, 221);
+        border-radius: 10%;
+        width: 100px;
+        height: 100px;
+        z-index: 50;
+        margin: auto;
+
+    }
+
+}
+
